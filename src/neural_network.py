@@ -20,6 +20,9 @@ class NeuralNetwork:
     def backpropagation(self, input_data, target):
         pass
 
+    def compute_cost(self, output, target):
+        pass
+
     def update_mini_batch(self, mini_batch, learning_rate):
         pass
 
@@ -27,9 +30,6 @@ class NeuralNetwork:
         pass
 
     def predict(self, input_data):
-        pass
-
-    def compute_cost(self, output, target):
         pass
 
     def accuracy(self, test_data):
