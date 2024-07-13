@@ -2,6 +2,8 @@
 
 A simple feedforward neural network coded from scratch.
 
+![](https://github.com/t9nzin/mnist-from-scratch/blob/main/demo.gif)
+
 ## Description
 
 This project implements a neural network classifier for the MNIST dataset of handwritten digits. 
