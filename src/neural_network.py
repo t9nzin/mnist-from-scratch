@@ -65,8 +65,9 @@ class NeuralNetwork:
 
     def feedforward(self, x):
         """
-        Initializes network weights using
-        a Xavier uniform distribution scheme
+        Input data is passed forward
+        through the layers until it
+        reaches the output layer
 
         Parameters
         ----------
@@ -91,8 +92,9 @@ class NeuralNetwork:
 
     def backprop(self, a_l, y, z):
         """
-        Initializes network weights using
-        a Xavier uniform distribution scheme
+        Loss is propagated back through
+        the network to update the weights
+        and biases
 
         Parameters
         ----------
